@@ -1,11 +1,11 @@
 body {
+  body {
     font-family: Arial, sans-serif;
-    background-color: #F0F0F0;
+    background-color: #E1FFEB; /* Instruction Background */
     color: #333;
     margin: 0;
     padding: 0;
 }
-
 header {
     background-color: #869182; /* Green */
     color: white;
