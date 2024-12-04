@@ -1,34 +1,48 @@
 body {
-  body {
     font-family: Arial, sans-serif;
-    background-color: #E1FFEB; /* Instruction Background */
+    background-color: #C0DFD6; /* Green background */
     color: #333;
     margin: 0;
     padding: 0;
 }
+
 header {
-    background-color: #869182; /* Green */
+    background-color: #F4A3ED; /* Pink header */
     color: white;
     text-align: center;
     padding: 1em;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4A3ED; /* Pink nav background */
+    padding: 10px 0;
+    list-style-type: none;
 }
 
-h1 {
-    font-size: 2em;
-    color: #A688A4; /* Purple */
+nav a {
+    color: white;
+    text-decoration: none;
 }
 
-p {
-    line-height: 1.6;
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #F4A3ED; /* Pink footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
 
 button {
-    background-color: #A688A4; /* Purple */
+    background-color: #F4A3ED; /* Pink button */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -36,5 +50,5 @@ button {
 }
 
 button:hover {
-    background-color: #869182; /* Green */
+    background-color: #C0DFD6; /* Green button hover */
 }
