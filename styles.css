@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #869182; /* Green */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: #A688A4; /* Purple */
+}
+
+p {
+    line-height: 1.6;
+}
+
+button {
+    background-color: #A688A4; /* Purple */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #869182; /* Green */
+}
